@@ -1,0 +1,79 @@
+From: <Saved by Blink>
+Snapshot-Content-Location: http://127.0.0.1:5500/.vscode/index.html
+Subject: Stopwatch
+Date: Fri, 5 Jul 2024 13:14:05 +0530
+MIME-Version: 1.0
+Content-Type: multipart/related;
+	type="text/html";
+	boundary="----MultipartBoundary--cdL49yYl0h4sWomaovDMuatPAMMBuLXaNoJ51zrWrN----"
+
+
+------MultipartBoundary--cdL49yYl0h4sWomaovDMuatPAMMBuLXaNoJ51zrWrN----
+Content-Type: text/html
+Content-ID: <frame-2AEE7B70EF04475D3F71C3687A0F7523@mhtml.blink>
+Content-Transfer-Encoding: quoted-printable
+Content-Location: http://127.0.0.1:5500/.vscode/index.html
+
+<!DOCTYPE html><html lang=3D"en"><head><meta http-equiv=3D"Content-Type" co=
+ntent=3D"text/html; charset=3DUTF-8">
+   =20
+    <meta http-equiv=3D"X-UA-Compatible" content=3D"IE=3Dedge">
+    <meta name=3D"viewpoint " content=3D"width=3Ddevice-width, initial-scal=
+e=3D1.0">
+    <title>Stopwatch</title>
+    <link rel=3D"stylesheet" href=3D"http://127.0.0.1:5500/.vscode/style.cs=
+s">
+</head>
+<body>
+    <div class=3D"container">
+        <div class=3D"timer-display">
+            00 : 00 : 00 : 000
+        </div>
+        <div class=3D"buttons">
+            <button id=3D"start-timer">Start</button>
+            <button id=3D"pause-timer">Pause</button>
+            <button id=3D"reset-timer">Reset</button>
+        </div>
+    </div>
+
+   =20
+<!-- Code injected by live-server -->
+
+
+</body></html>
+------MultipartBoundary--cdL49yYl0h4sWomaovDMuatPAMMBuLXaNoJ51zrWrN----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: http://127.0.0.1:5500/.vscode/style.css
+
+@charset "utf-8";
+
+*, ::before, ::after { padding: 0px; margin: 0px; box-sizing: border-box; }
+
+body { background-color: rgb(140, 82, 255); }
+
+.container { background-color: rgb(255, 255, 255); width: 40%; min-width: 5=
+00px; position: absolute; transform: translate(-50%, -50%); top: 50%; left:=
+ 50%; padding: 20px 0px 50px; border-radius: 10px; box-shadow: rgba(0, 0, 0=
+, 0.337) 0px 0px 20px; }
+
+.timer-display { position: relative; width: 92%; background: rgb(255, 255, =
+255); left: 4%; font-family: "Roboto mono", monospace; color: rgb(140, 82, =
+255); font-size: 35px; padding: 40px; display: flex; align-items: center; j=
+ustify-content: space-around; border-radius: 5px; box-shadow: rgba(65, 5, 1=
+45, 0.25) 0px 0px 20px; }
+
+.buttons { width: 90%; margin: 60px auto 0px; display: flex; justify-conten=
+t: space-around; }
+
+.buttons button { width: 120px; height: 45px; background-color: rgb(140, 82=
+, 255); color: rgb(255, 255, 255); border: none; font-family: Poppins, sans=
+-serif; font-size: 18px; border-radius: 5px; cursor: pointer; outline: none=
+; }
+
+.buttons button:nth-last-child(2) { background-color: rgb(227, 82, 9); }
+
+.buttons button:nth-last-child(1) { background-color: rgb(247, 223, 30); }
+
+.buttons button:hover { box-shadow: rgba(0, 0, 0, 0.25) 0px 0px 20px; }
+------MultipartBoundary--cdL49yYl0h4sWomaovDMuatPAMMBuLXaNoJ51zrWrN------
